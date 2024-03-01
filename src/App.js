@@ -1,10 +1,22 @@
-import "./App.css";
+import React from 'react';
+import './App.css';
+import HomePage from './Pages/Home.js';
+import Navbar from './Components/NavBar.jsx'; 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <BrowserRouter>
+      <div>
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 
