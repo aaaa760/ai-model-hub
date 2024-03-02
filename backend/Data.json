@@ -1,0 +1,1542 @@
+[
+    {
+        "id": 1,
+        "name": "GPT-3",
+        "category": "Natural Language Processing",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5000,
+        "subcategory": "Token Classification"
+    },
+    {
+        "id": 2,
+        "name": "BERT",
+        "category": "Natural Language Processing",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6000,
+        "subcategory": "Table Question Answering"
+    },
+    {
+        "id": 3,
+        "name": "T5",
+        "category": "Natural Language Processing",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4500,
+        "subcategory": "Question Answering"
+    },
+    {
+        "id": 4,
+        "name": "YOLOv4",
+        "category": "Computer Vision",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3500,
+        "subcategory": "Text-to-Image"
+    },
+    {
+        "id": 5,
+        "name": "ResNet-50",
+        "category": "Computer Vision",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3000,
+        "subcategory": "Image-to-Text"
+    },
+    {
+        "id": 6,
+        "name": "Transformer",
+        "category": "Natural Language Processing",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5500,
+        "subcategory": "Summarization"
+    },
+    {
+        "id": 7,
+        "name": "WaveNet",
+        "category": "Audio",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2500,
+        "subcategory": "Text-to-Audio"
+    },
+    {
+        "id": 8,
+        "name": "DeepSpeech",
+        "category": "Audio",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4000,
+        "subcategory": "Automatic Speech Recognition"
+    },
+    {
+        "id": 9,
+        "name": "GPT-3 Variant 9",
+        "category": "Natural Language Processing",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5009,
+        "subcategory": "Text2Text Generation"
+    },
+    {
+        "id": 10,
+        "name": "BERT Variant 10",
+        "category": "Computer Vision",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6010,
+        "subcategory": "Text-to-Video"
+    },
+    {
+        "id": 11,
+        "name": "T5 Variant 11",
+        "category": "Audio",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4511,
+        "subcategory": "Voice Activity Detection"
+    },
+    {
+        "id": 12,
+        "name": "YOLOv4 Variant 12",
+        "category": "Reinforcement Learning",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3512,
+        "subcategory": "Reinforcement Learning"
+    },
+    {
+        "id": 13,
+        "name": "ResNet-50 Variant 13",
+        "category": "Multimodal",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3013,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 14,
+        "name": "Transformer Variant 14",
+        "category": "Tabular",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5514,
+        "subcategory": "Tabular Classification"
+    },
+    {
+        "id": 15,
+        "name": "WaveNet Variant 15",
+        "category": "Text-to-Speech",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2515,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 16,
+        "name": "DeepSpeech Variant 16",
+        "category": "Text-to-Image",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4016,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 17,
+        "name": "GPT-3 Variant 17",
+        "category": "Image-to-Text",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5017,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 18,
+        "name": "BERT Variant 18",
+        "category": "Natural Language Processing",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6018,
+        "subcategory": "Summarization"
+    },
+    {
+        "id": 19,
+        "name": "T5 Variant 19",
+        "category": "Computer Vision",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4519,
+        "subcategory": "Object Detection"
+    },
+    {
+        "id": 20,
+        "name": "YOLOv4 Variant 20",
+        "category": "Audio",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3520,
+        "subcategory": "Automatic Speech Recognition"
+    },
+    {
+        "id": 21,
+        "name": "ResNet-50 Variant 21",
+        "category": "Reinforcement Learning",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3021,
+        "subcategory": "Robotics"
+    },
+    {
+        "id": 22,
+        "name": "Transformer Variant 22",
+        "category": "Multimodal",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5522,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 23,
+        "name": "WaveNet Variant 23",
+        "category": "Tabular",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2523,
+        "subcategory": "Tabular Regression"
+    },
+    {
+        "id": 24,
+        "name": "DeepSpeech Variant 24",
+        "category": "Text-to-Speech",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4024,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 25,
+        "name": "GPT-3 Variant 25",
+        "category": "Text-to-Image",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5025,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 26,
+        "name": "BERT Variant 26",
+        "category": "Image-to-Text",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6026,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 27,
+        "name": "T5 Variant 27",
+        "category": "Natural Language Processing",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4527,
+        "subcategory": "Question Answering"
+    },
+    {
+        "id": 28,
+        "name": "YOLOv4 Variant 28",
+        "category": "Computer Vision",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3528,
+        "subcategory": "Zero-Shot Image Classification"
+    },
+    {
+        "id": 29,
+        "name": "ResNet-50 Variant 29",
+        "category": "Audio",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3029,
+        "subcategory": "Voice Activity Detection"
+    },
+    {
+        "id": 30,
+        "name": "Transformer Variant 30",
+        "category": "Reinforcement Learning",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5530,
+        "subcategory": "Reinforcement Learning"
+    },
+    {
+        "id": 31,
+        "name": "WaveNet Variant 31",
+        "category": "Multimodal",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2531,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 32,
+        "name": "DeepSpeech Variant 32",
+        "category": "Tabular",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4032,
+        "subcategory": "Tabular Classification"
+    },
+    {
+        "id": 33,
+        "name": "GPT-3 Variant 33",
+        "category": "Text-to-Speech",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5033,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 34,
+        "name": "BERT Variant 34",
+        "category": "Text-to-Image",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6034,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 35,
+        "name": "T5 Variant 35",
+        "category": "Image-to-Text",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4535,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 36,
+        "name": "YOLOv4 Variant 36",
+        "category": "Natural Language Processing",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3536,
+        "subcategory": "Text Classification"
+    },
+    {
+        "id": 37,
+        "name": "ResNet-50 Variant 37",
+        "category": "Computer Vision",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3037,
+        "subcategory": "Image Segmentation"
+    },
+    {
+        "id": 38,
+        "name": "Transformer Variant 38",
+        "category": "Audio",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5538,
+        "subcategory": "Automatic Speech Recognition"
+    },
+    {
+        "id": 39,
+        "name": "WaveNet Variant 39",
+        "category": "Reinforcement Learning",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2539,
+        "subcategory": "Robotics"
+    },
+    {
+        "id": 40,
+        "name": "DeepSpeech Variant 40",
+        "category": "Multimodal",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4040,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 41,
+        "name": "GPT-3 Variant 41",
+        "category": "Tabular",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5041,
+        "subcategory": "Tabular Regression"
+    },
+    {
+        "id": 42,
+        "name": "BERT Variant 42",
+        "category": "Text-to-Speech",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6042,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 43,
+        "name": "T5 Variant 43",
+        "category": "Text-to-Image",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4543,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 44,
+        "name": "YOLOv4 Variant 44",
+        "category": "Image-to-Text",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3544,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 45,
+        "name": "ResNet-50 Variant 45",
+        "category": "Natural Language Processing",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3045,
+        "subcategory": "Text2Text Generation"
+    },
+    {
+        "id": 46,
+        "name": "Transformer Variant 46",
+        "category": "Computer Vision",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5546,
+        "subcategory": "Mask Generation"
+    },
+    {
+        "id": 47,
+        "name": "WaveNet Variant 47",
+        "category": "Audio",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2547,
+        "subcategory": "Voice Activity Detection"
+    },
+    {
+        "id": 48,
+        "name": "DeepSpeech Variant 48",
+        "category": "Reinforcement Learning",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4048,
+        "subcategory": "Reinforcement Learning"
+    },
+    {
+        "id": 49,
+        "name": "GPT-3 Variant 49",
+        "category": "Multimodal",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5049,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 50,
+        "name": "BERT Variant 50",
+        "category": "Tabular",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6050,
+        "subcategory": "Tabular Classification"
+    },
+    {
+        "id": 51,
+        "name": "GPT-3 Variant 51",
+        "category": "Text-to-Speech",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5051,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 52,
+        "name": "BERT Variant 52",
+        "category": "Text-to-Image",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6052,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 53,
+        "name": "T5 Variant 53",
+        "category": "Image-to-Text",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4553,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 54,
+        "name": "YOLOv4 Variant 54",
+        "category": "Natural Language Processing",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3554,
+        "subcategory": "Summarization"
+    },
+    {
+        "id": 55,
+        "name": "ResNet-50 Variant 55",
+        "category": "Computer Vision",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3055,
+        "subcategory": "Text-to-Image"
+    },
+    {
+        "id": 56,
+        "name": "Transformer Variant 56",
+        "category": "Audio",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5556,
+        "subcategory": "Automatic Speech Recognition"
+    },
+    {
+        "id": 57,
+        "name": "WaveNet Variant 57",
+        "category": "Reinforcement Learning",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2557,
+        "subcategory": "Robotics"
+    },
+    {
+        "id": 58,
+        "name": "DeepSpeech Variant 58",
+        "category": "Multimodal",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4058,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 59,
+        "name": "GPT-3 Variant 59",
+        "category": "Tabular",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5059,
+        "subcategory": "Tabular Regression"
+    },
+    {
+        "id": 60,
+        "name": "BERT Variant 60",
+        "category": "Text-to-Speech",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6060,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 61,
+        "name": "T5 Variant 61",
+        "category": "Text-to-Image",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4561,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 62,
+        "name": "YOLOv4 Variant 62",
+        "category": "Image-to-Text",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3562,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 63,
+        "name": "ResNet-50 Variant 63",
+        "category": "Natural Language Processing",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3063,
+        "subcategory": "Question Answering"
+    },
+    {
+        "id": 64,
+        "name": "Transformer Variant 64",
+        "category": "Computer Vision",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5564,
+        "subcategory": "Zero-Shot Object Detection"
+    },
+    {
+        "id": 65,
+        "name": "WaveNet Variant 65",
+        "category": "Audio",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2565,
+        "subcategory": "Voice Activity Detection"
+    },
+    {
+        "id": 66,
+        "name": "DeepSpeech Variant 66",
+        "category": "Reinforcement Learning",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4066,
+        "subcategory": "Reinforcement Learning"
+    },
+    {
+        "id": 67,
+        "name": "GPT-3 Variant 67",
+        "category": "Multimodal",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5067,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 68,
+        "name": "BERT Variant 68",
+        "category": "Tabular",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6068,
+        "subcategory": "Tabular Classification"
+    },
+    {
+        "id": 69,
+        "name": "T5 Variant 69",
+        "category": "Text-to-Speech",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4569,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 70,
+        "name": "YOLOv4 Variant 70",
+        "category": "Text-to-Image",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3570,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 71,
+        "name": "ResNet-50 Variant 71",
+        "category": "Image-to-Text",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3071,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 72,
+        "name": "Transformer Variant 72",
+        "category": "Natural Language Processing",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5572,
+        "subcategory": "Text Classification"
+    },
+    {
+        "id": 73,
+        "name": "WaveNet Variant 73",
+        "category": "Computer Vision",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2573,
+        "subcategory": "Image-to-Text"
+    },
+    {
+        "id": 74,
+        "name": "DeepSpeech Variant 74",
+        "category": "Audio",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4074,
+        "subcategory": "Automatic Speech Recognition"
+    },
+    {
+        "id": 75,
+        "name": "GPT-3 Variant 75",
+        "category": "Reinforcement Learning",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5075,
+        "subcategory": "Robotics"
+    },
+    {
+        "id": 76,
+        "name": "BERT Variant 76",
+        "category": "Multimodal",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6076,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 77,
+        "name": "T5 Variant 77",
+        "category": "Tabular",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4577,
+        "subcategory": "Tabular Regression"
+    },
+    {
+        "id": 78,
+        "name": "YOLOv4 Variant 78",
+        "category": "Text-to-Speech",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3578,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 79,
+        "name": "ResNet-50 Variant 79",
+        "category": "Text-to-Image",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3079,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 80,
+        "name": "Transformer Variant 80",
+        "category": "Image-to-Text",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5580,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 81,
+        "name": "WaveNet Variant 81",
+        "category": "Natural Language Processing",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2581,
+        "subcategory": "Text2Text Generation"
+    },
+    {
+        "id": 82,
+        "name": "DeepSpeech Variant 82",
+        "category": "Computer Vision",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4082,
+        "subcategory": "Text-to-3D"
+    },
+    {
+        "id": 83,
+        "name": "GPT-3 Variant 83",
+        "category": "Audio",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5083,
+        "subcategory": "Voice Activity Detection"
+    },
+    {
+        "id": 84,
+        "name": "BERT Variant 84",
+        "category": "Reinforcement Learning",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6084,
+        "subcategory": "Reinforcement Learning"
+    },
+    {
+        "id": 85,
+        "name": "T5 Variant 85",
+        "category": "Multimodal",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4585,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 86,
+        "name": "YOLOv4 Variant 86",
+        "category": "Tabular",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3586,
+        "subcategory": "Tabular Classification"
+    },
+    {
+        "id": 87,
+        "name": "ResNet-50 Variant 87",
+        "category": "Text-to-Speech",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3087,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 88,
+        "name": "Transformer Variant 88",
+        "category": "Text-to-Image",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5588,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 89,
+        "name": "WaveNet Variant 89",
+        "category": "Image-to-Text",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2589,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 90,
+        "name": "DeepSpeech Variant 90",
+        "category": "Natural Language Processing",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4090,
+        "subcategory": "Summarization"
+    },
+    {
+        "id": 91,
+        "name": "GPT-3 Variant 91",
+        "category": "Computer Vision",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5091,
+        "subcategory": "Image-to-Image"
+    },
+    {
+        "id": 92,
+        "name": "BERT Variant 92",
+        "category": "Audio",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6092,
+        "subcategory": "Automatic Speech Recognition"
+    },
+    {
+        "id": 93,
+        "name": "T5 Variant 93",
+        "category": "Reinforcement Learning",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4593,
+        "subcategory": "Robotics"
+    },
+    {
+        "id": 94,
+        "name": "YOLOv4 Variant 94",
+        "category": "Multimodal",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3594,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 95,
+        "name": "ResNet-50 Variant 95",
+        "category": "Tabular",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3095,
+        "subcategory": "Tabular Regression"
+    },
+    {
+        "id": 96,
+        "name": "Transformer Variant 96",
+        "category": "Text-to-Speech",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5596,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 97,
+        "name": "WaveNet Variant 97",
+        "category": "Text-to-Image",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2597,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 98,
+        "name": "DeepSpeech Variant 98",
+        "category": "Image-to-Text",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4098,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 99,
+        "name": "GPT-3 Variant 99",
+        "category": "Natural Language Processing",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5099,
+        "subcategory": "Question Answering"
+    },
+    {
+        "id": 100,
+        "name": "BERT Variant 100",
+        "category": "Computer Vision",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6100,
+        "subcategory": "Image-to-3D"
+    },
+    {
+        "id": 101,
+        "name": "T5 Variant 101",
+        "category": "Audio",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4601,
+        "subcategory": "Voice Activity Detection"
+    },
+    {
+        "id": 102,
+        "name": "YOLOv4 Variant 102",
+        "category": "Reinforcement Learning",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3602,
+        "subcategory": "Reinforcement Learning"
+    },
+    {
+        "id": 103,
+        "name": "ResNet-50 Variant 103",
+        "category": "Multimodal",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3103,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 104,
+        "name": "Transformer Variant 104",
+        "category": "Tabular",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5604,
+        "subcategory": "Tabular Classification"
+    },
+    {
+        "id": 105,
+        "name": "WaveNet Variant 105",
+        "category": "Text-to-Speech",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2605,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 106,
+        "name": "DeepSpeech Variant 106",
+        "category": "Text-to-Image",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4106,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 107,
+        "name": "GPT-3 Variant 107",
+        "category": "Image-to-Text",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5107,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 108,
+        "name": "BERT Variant 108",
+        "category": "Natural Language Processing",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6108,
+        "subcategory": "Text Classification"
+    },
+    {
+        "id": 109,
+        "name": "T5 Variant 109",
+        "category": "Computer Vision",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4609,
+        "subcategory": "Image-to-Video"
+    },
+    {
+        "id": 110,
+        "name": "YOLOv4 Variant 110",
+        "category": "Audio",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3610,
+        "subcategory": "Automatic Speech Recognition"
+    },
+    {
+        "id": 111,
+        "name": "ResNet-50 Variant 111",
+        "category": "Reinforcement Learning",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3111,
+        "subcategory": "Robotics"
+    },
+    {
+        "id": 112,
+        "name": "Transformer Variant 112",
+        "category": "Multimodal",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5612,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 113,
+        "name": "WaveNet Variant 113",
+        "category": "Tabular",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2613,
+        "subcategory": "Tabular Regression"
+    },
+    {
+        "id": 114,
+        "name": "DeepSpeech Variant 114",
+        "category": "Text-to-Speech",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4114,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 115,
+        "name": "GPT-3 Variant 115",
+        "category": "Text-to-Image",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5115,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 116,
+        "name": "BERT Variant 116",
+        "category": "Image-to-Text",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6116,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 117,
+        "name": "T5 Variant 117",
+        "category": "Natural Language Processing",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4617,
+        "subcategory": "Text2Text Generation"
+    },
+    {
+        "id": 118,
+        "name": "YOLOv4 Variant 118",
+        "category": "Computer Vision",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3618,
+        "subcategory": "Image Feature Extraction"
+    },
+    {
+        "id": 119,
+        "name": "ResNet-50 Variant 119",
+        "category": "Audio",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3119,
+        "subcategory": "Voice Activity Detection"
+    },
+    {
+        "id": 120,
+        "name": "Transformer Variant 120",
+        "category": "Reinforcement Learning",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5620,
+        "subcategory": "Reinforcement Learning"
+    },
+    {
+        "id": 121,
+        "name": "WaveNet Variant 121",
+        "category": "Multimodal",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2621,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 122,
+        "name": "DeepSpeech Variant 122",
+        "category": "Tabular",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4122,
+        "subcategory": "Tabular Classification"
+    },
+    {
+        "id": 123,
+        "name": "GPT-3 Variant 123",
+        "category": "Text-to-Speech",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5123,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 124,
+        "name": "BERT Variant 124",
+        "category": "Text-to-Image",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6124,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 125,
+        "name": "T5 Variant 125",
+        "category": "Image-to-Text",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4625,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 126,
+        "name": "YOLOv4 Variant 126",
+        "category": "Natural Language Processing",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3626,
+        "subcategory": "Summarization"
+    },
+    {
+        "id": 127,
+        "name": "ResNet-50 Variant 127",
+        "category": "Computer Vision",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3127,
+        "subcategory": "Unconditional Image Generation"
+    },
+    {
+        "id": 128,
+        "name": "Transformer Variant 128",
+        "category": "Audio",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5628,
+        "subcategory": "Automatic Speech Recognition"
+    },
+    {
+        "id": 129,
+        "name": "WaveNet Variant 129",
+        "category": "Reinforcement Learning",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2629,
+        "subcategory": "Robotics"
+    },
+    {
+        "id": 130,
+        "name": "DeepSpeech Variant 130",
+        "category": "Multimodal",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4130,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 131,
+        "name": "GPT-3 Variant 131",
+        "category": "Tabular",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5131,
+        "subcategory": "Tabular Regression"
+    },
+    {
+        "id": 132,
+        "name": "BERT Variant 132",
+        "category": "Text-to-Speech",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6132,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 133,
+        "name": "T5 Variant 133",
+        "category": "Text-to-Image",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4633,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 134,
+        "name": "YOLOv4 Variant 134",
+        "category": "Image-to-Text",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3634,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 135,
+        "name": "ResNet-50 Variant 135",
+        "category": "Natural Language Processing",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3135,
+        "subcategory": "Question Answering"
+    },
+    {
+        "id": 136,
+        "name": "Transformer Variant 136",
+        "category": "Computer Vision",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5636,
+        "subcategory": "Depth Estimation"
+    },
+    {
+        "id": 137,
+        "name": "WaveNet Variant 137",
+        "category": "Audio",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2637,
+        "subcategory": "Voice Activity Detection"
+    },
+    {
+        "id": 138,
+        "name": "DeepSpeech Variant 138",
+        "category": "Reinforcement Learning",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4138,
+        "subcategory": "Reinforcement Learning"
+    },
+    {
+        "id": 139,
+        "name": "GPT-3 Variant 139",
+        "category": "Multimodal",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5139,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 140,
+        "name": "BERT Variant 140",
+        "category": "Tabular",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6140,
+        "subcategory": "Tabular Classification"
+    },
+    {
+        "id": 141,
+        "name": "T5 Variant 141",
+        "category": "Text-to-Speech",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4641,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 142,
+        "name": "YOLOv4 Variant 142",
+        "category": "Text-to-Image",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3642,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 143,
+        "name": "ResNet-50 Variant 143",
+        "category": "Image-to-Text",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3143,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 144,
+        "name": "Transformer Variant 144",
+        "category": "Natural Language Processing",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5644,
+        "subcategory": "Text Classification"
+    },
+    {
+        "id": 145,
+        "name": "WaveNet Variant 145",
+        "category": "Computer Vision",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2645,
+        "subcategory": "Video Classification"
+    },
+    {
+        "id": 146,
+        "name": "DeepSpeech Variant 146",
+        "category": "Audio",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4146,
+        "subcategory": "Automatic Speech Recognition"
+    },
+    {
+        "id": 147,
+        "name": "GPT-3 Variant 147",
+        "category": "Reinforcement Learning",
+        "description": "An autoregressive language model that uses deep learning to produce human-like text.",
+        "useCases": "Text generation, conversation, and more.",
+        "provider": "OpenAI",
+        "usageCount": 5147,
+        "subcategory": "Robotics"
+    },
+    {
+        "id": 148,
+        "name": "BERT Variant 148",
+        "category": "Multimodal",
+        "description": "A method of pre-training language representations which obtains state-of-the-art results on a wide array of NLP tasks.",
+        "useCases": "Text classification, sentiment analysis.",
+        "provider": "Google",
+        "usageCount": 6148,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 149,
+        "name": "T5 Variant 149",
+        "category": "Tabular",
+        "description": "The Text-to-Text Transfer Transformer (T5) treats every language problem as a text-to-text problem.",
+        "useCases": "Translation, summarization, question answering, and more.",
+        "provider": "Google",
+        "usageCount": 4649,
+        "subcategory": "Tabular Regression"
+    },
+    {
+        "id": 150,
+        "name": "YOLOv4 Variant 150",
+        "category": "Text-to-Speech",
+        "description": "A real-time object detection model that recognizes multiple objects in a single frame in real time.",
+        "useCases": "Surveillance, self-driving cars, and tracking.",
+        "provider": "Alexey Bochkovskiy",
+        "usageCount": 3650,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 151,
+        "name": "ResNet-50 Variant 151",
+        "category": "Text-to-Image",
+        "description": "A convolutional neural network that is 50 layers deep and can classify images into 1000 object categories.",
+        "useCases": "Image recognition, image classification.",
+        "provider": "Microsoft",
+        "usageCount": 3151,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 152,
+        "name": "Transformer Variant 152",
+        "category": "Image-to-Text",
+        "description": "A novel neural network architecture based on a self-attention mechanism that has influenced the design of many NLP models.",
+        "useCases": "Underpins models like GPT and BERT for various NLP tasks.",
+        "provider": "Google AI",
+        "usageCount": 5652,
+        "subcategory": "Unknown"
+    },
+    {
+        "id": 153,
+        "name": "WaveNet Variant 153",
+        "category": "Natural Language Processing",
+        "description": "A deep generative model of raw audio waveforms that produces natural-sounding speech.",
+        "useCases": "Text-to-speech, music generation.",
+        "provider": "DeepMind",
+        "usageCount": 2653,
+        "subcategory": "Text2Text Generation"
+    },
+    {
+        "id": 154,
+        "name": "DeepSpeech Variant 154",
+        "category": "Computer Vision",
+        "description": "An open-source Speech-To-Text engine, based on Baidu's Deep Speech research paper.",
+        "useCases": "Transcribing audio and video files to text.",
+        "provider": "Mozilla",
+        "usageCount": 4154,
+        "subcategory": "Image Classification"
+    }
+]

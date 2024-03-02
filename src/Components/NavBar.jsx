@@ -9,7 +9,7 @@ import {
 
 const NavBar = () => {
   return (
-    <header className="bg-white  py-4">
+    <header className="bg-white shadow-sm py-4">
       <div className="container mx-auto flex justify-between items-center px-6">
         <Link to="/" className="text-customBlue font-anta text-3xl">
           ai model hub

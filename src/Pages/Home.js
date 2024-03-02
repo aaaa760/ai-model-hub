@@ -3,7 +3,7 @@ import illustration from "../Assets/Images/1.webp";
 
 const HomePage = () => {
   return (
-    <div className="container mx-auto flex items-start justify-center min-h-screen py-24 px-8">
+    <div className="container mx-auto flex items-start justify-center min-h-screen py-24 px-6">
       <div className="flex flex-wrap md:flex-nowrap">
         <div className="flex-1 self-center">
           <h1 className="text-5xl font-bold mb-4">
