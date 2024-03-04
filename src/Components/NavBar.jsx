@@ -10,7 +10,7 @@ import {
 const NavBar = () => {
   return (
     <header className="bg-white shadow-sm py-4">
-      <div className="container mx-auto flex justify-between items-center px-6">
+      <div className=" mx-auto flex justify-between items-center px-6">
         <Link to="/" className="text-customBlue font-anta text-3xl">
           ai model hub
         </Link>
@@ -24,14 +24,14 @@ const NavBar = () => {
               <span>Models</span>
             </Link>
             <Link
-              to="/curated-picks"
+              to="/curated"
               className="text-base font-medium text-gray-600 hover:text-gray-900 flex items-center space-x-2"
             >
               <StarIcon className="h-5 w-5" />
               <span>Curated Picks</span>
             </Link>
             <Link
-              to="/deploy"
+              to="/add-model"
               className="text-base font-medium text-gray-600 hover:text-gray-900 flex items-center space-x-2"
             >
               <CloudUploadIcon className="h-5 w-5" />

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import Sidebar from '../Components/Sidebar';
 import ModelCard from '../Components/Card';
@@ -6,12 +7,20 @@ import ModelCard from '../Components/Card';
 const Model = () => {
   const [models, setModels] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [modelsPerPage] = useState(10);
+  const [modelsPerPage] = useState(15);
+  const { category, subcategory } = useParams();
 
   useEffect(() => {
     const fetchModels = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/api/models');
+        let url = `http://localhost:3001/api/models`;
+        if (category) {
+          url += `/category/${category}`;
+          if (subcategory) {
+            url += `/subcategory/${subcategory}`;
+          }
+        }
+        const response = await axios.get(url);
         setModels(response.data);
       } catch (error) {
         console.error('Error fetching models:', error);
@@ -19,7 +28,7 @@ const Model = () => {
     };
 
     fetchModels();
-  }, []);
+  }, [category, subcategory]);
 
   const indexOfLastModel = currentPage * modelsPerPage;
   const indexOfFirstModel = indexOfLastModel - modelsPerPage;
@@ -28,15 +37,15 @@ const Model = () => {
   const paginate = pageNumber => setCurrentPage(pageNumber);
 
   return (
-    <div className="flex h-screen">
+    <div className="relative sm:flex h-fit-content">
       <Sidebar />
-      <div className="flex-1 p-4 overflow-auto">
+      <div className="flex-1 p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {currentModels.map(model => (
             <ModelCard key={model.id} model={model} />
           ))}
         </div>
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center m-4">
           <nav>
             <ul className="flex list-none">
               {Array.from({ length: Math.ceil(models.length / modelsPerPage) }, (_, i) => (
