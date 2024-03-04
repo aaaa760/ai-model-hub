@@ -4,21 +4,27 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 app.use(express.json());
+const {getData} = require('./Data.js'); 
 
 function getModelsData(callback) {
-  fs.readFile("data.json", (err, data) => {
-    if (err) {
-      callback(err, null);
-    } else {
-      callback(null, JSON.parse(data));
-    }
-  });
+  const data  = getData();
+  if(data){
+   callback(null , data);
+  }
+  else{
+    callback("Error in Reading Data" , null );
+  }
 }
 
+app.get("/" , (req,res) =>{
+res.send("App Running");
+})
 app.get("/api/models", (req, res) => {
   getModelsData((err, data) => {
     if (err) {
+      cosole.log(err);
       res.status(500).send("Error reading data");
+      
     } else {
       res.json(data);
     }

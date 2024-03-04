@@ -12,7 +12,7 @@ const CuratedModels = () => {
 
     const fetchCuratedModels = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/api/models');
+        const response = await axios.get('https://ai-model-backend-aaaa760.vercel.app/api/models/');
         const favoriteModels = response.data.filter(model => 
           favoriteIds.includes(model.id)
         );

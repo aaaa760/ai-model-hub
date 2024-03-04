@@ -13,7 +13,7 @@ const Model = () => {
   useEffect(() => {
     const fetchModels = async () => {
       try {
-        let url = `http://localhost:3001/api/models`;
+        let url = `https://ai-model-backend-aaaa760.vercel.app/api/models/`;
         if (category) {
           url += `/category/${category}`;
           if (subcategory) {

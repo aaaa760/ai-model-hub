@@ -13,7 +13,7 @@ const ModelDetail = () => {
     const fetchModelDetail = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3001/api/models/${id}`
+          `https://ai-model-backend-aaaa760.vercel.app/api/models/${id}`
         );
         setModelDetail(response.data);
       } catch (error) {
