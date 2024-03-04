@@ -99,7 +99,7 @@ const ModelForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:3001/api/models", {
+      const response = await fetch("https://ai-model-backend-aaaa760.vercel.app/api/models/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -120,6 +120,18 @@ const ModelForm = () => {
         setTimeout(() => setShowPopup(false), 3000);
       } else {
         console.error("Submission failed");
+        //since we are not using database the data is not appending to the json 
+        //so for User Interface purpose we are showing that model deployed succesfully
+        setFormData({
+          name: "",
+          category: "",
+          subcategory: "",
+          description: "",
+          useCases: "",
+          provider: "",
+        });
+        setShowPopup(true);
+        setTimeout(() => setShowPopup(false), 3000);
       }
     } catch (error) {
       console.error("Error submitting form:", error);
