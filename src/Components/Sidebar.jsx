@@ -1,8 +1,9 @@
 import React from "react";
 import NotesIcon from "../Assets/svg/Notes.svg";
+import { XIcon } from "@heroicons/react/outline";
 import { useNavigate } from "react-router-dom";
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, toggleSidebar, onItemClick }) => {
   const navigate = useNavigate();
   const categories = [
     {
@@ -83,9 +84,12 @@ const Sidebar = () => {
 
   return (
     <div
-      className=" absolute   sm:sticky top-0 flex flex-col w-1/4 bg-gradient-to-l from-gray-50 to-white text-black py-8 p-3"
+      className={`absolute sm:relative ${
+        isOpen ? "block" : "hidden"
+      } sm:block sm:sticky top-0 flex flex-col w-full sm:w-1/4 bg-gradient-to-l from-gray-50 to-white text-black py-8 p-3`}
       style={{ minHeight: "150vh" }}
     >
+      <XIcon onClick={toggleSidebar} className="sm:hidden h-10 w-10"></XIcon>
       {categories.map((category, index) => (
         <React.Fragment key={index}>
           <div
@@ -98,7 +102,10 @@ const Sidebar = () => {
             {category.subcategories.map((subcategory, subIndex) => (
               <button
                 key={subIndex}
-                onClick={() => navigateToModels(category.name, subcategory)}
+                onClick={() => {
+                  navigateToModels(category.name, subcategory);
+                  onItemClick();
+                }}
                 className="flex items-center bg-white text-gray-700 rounded-md border-2 border-customBlue border-opacity-30 my-2 px-2 py-1 text-xs"
               >
                 <img
@@ -108,8 +115,6 @@ const Sidebar = () => {
                 />
                 <span className="text-xs font-medium">{subcategory}</span>
               </button>
-             
-
             ))}
           </div>
         </React.Fragment>

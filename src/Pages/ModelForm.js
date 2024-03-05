@@ -8,6 +8,7 @@ const ModelForm = () => {
     description: "",
     useCases: "",
     provider: "",
+    githublink: "",
   });
   const [showPopup, setShowPopup] = useState(false);
   const [isFormValid, setIsFormValid] = useState(false);
@@ -99,13 +100,16 @@ const ModelForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://ai-model-backend-aaaa760.vercel.app/api/models/", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://ai-model-backend-laom3xzyu-aaaa760.vercel.app/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
       if (response.ok) {
         console.log("Model submitted successfully");
         setFormData({
@@ -115,12 +119,13 @@ const ModelForm = () => {
           description: "",
           useCases: "",
           provider: "",
+          githublink: "",
         });
         setShowPopup(true);
         setTimeout(() => setShowPopup(false), 3000);
       } else {
         console.error("Submission failed");
-        //since we are not using database the data is not appending to the json 
+        //since we are not using database the data is not appending to the json
         //so for User Interface purpose we are showing that model deployed succesfully
         setFormData({
           name: "",
@@ -129,6 +134,7 @@ const ModelForm = () => {
           description: "",
           useCases: "",
           provider: "",
+          githublink: "",
         });
         setShowPopup(true);
         setTimeout(() => setShowPopup(false), 3000);
@@ -144,7 +150,7 @@ const ModelForm = () => {
     : [];
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 h-full">
       {showPopup && (
         <div className="fixed top-0 inset-x-0 flex justify-center items-start z-50">
           <div className="mt-12 p-4 bg-black text-white rounded-lg shadow-lg transition-transform transform-gpu animate-slideInSlideOut flex items-center">
@@ -153,68 +159,103 @@ const ModelForm = () => {
           </div>
         </div>
       )}
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <input
-          type="text"
-          name="name"
-          placeholder="Model Name"
-          value={formData.name}
-          onChange={handleChange}
-          className="w-full p-2 border border-gray-300 rounded"
-        />
-        <select
-          name="category"
-          value={formData.category}
-          onChange={handleChange}
-          className="w-full p-2 border border-gray-300 rounded"
-        >
-          <option value="">Select Category</option>
-          {categories.map((cat) => (
-            <option key={cat.name} value={cat.name}>
-              {cat.name}
-            </option>
-          ))}
-        </select>
-        <select
-          name="subcategory"
-          value={formData.subcategory}
-          onChange={handleChange}
-          className="w-full p-2 border border-gray-300 rounded"
-          disabled={!formData.category}
-        >
-          <option value="">Select Subcategory</option>
-          {filteredSubcategories.map((subCat) => (
-            <option key={subCat} value={subCat}>
-              {subCat}
-            </option>
-          ))}
-        </select>
-        <textarea
-          name="description"
-          placeholder="Description"
-          value={formData.description}
-          onChange={handleChange}
-          className="w-full p-2 border border-gray-300 rounded"
-        />
-        <textarea
-          name="useCases"
-          placeholder="Use Cases"
-          value={formData.useCases}
-          onChange={handleChange}
-          className="w-full p-2 border border-gray-300 rounded"
-        />
-        <input
-          type="text"
-          name="provider"
-          placeholder="Provider"
-          value={formData.provider}
-          onChange={handleChange}
-          className="w-full p-2 border border-gray-300 rounded"
-        />
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col gap-4 h-full items-center"
+      >
+        <h1 className="font-bold text-xl">Show your Model to the World!</h1>
+        <div className="w-full flex flex-col items-start gap-2">
+          <label className="font-medium text-base">Model Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Model Name"
+            value={formData.name}
+            onChange={handleChange}
+            className="w-full p-2 border border-gray-300 rounded"
+          />
+        </div>
+        <div className="flex w-full gap-2">
+          <div className="w-full flex flex-col items-start gap-2">
+            <label className="font-medium text-base">Select Category</label>
+            <select
+              name="category"
+              value={formData.category}
+              onChange={handleChange}
+              className="w-full p-2 border border-gray-300 rounded"
+            >
+              <option value="">Select Category</option>
+              {categories.map((cat) => (
+                <option key={cat.name} value={cat.name}>
+                  {cat.name}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className="w-full flex flex-col items-start gap-2">
+            <label className="font-medium text-base">Select Subcategory</label>
+            <select
+              name="subcategory"
+              value={formData.subcategory}
+              onChange={handleChange}
+              className="w-full p-2 border border-gray-300 rounded"
+              disabled={!formData.category}
+            >
+              <option value="">Select Subcategory</option>
+              {filteredSubcategories.map((subCat) => (
+                <option key={subCat} value={subCat}>
+                  {subCat}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+        <div className="w-full flex flex-col items-start gap-2 flex-1">
+          <label className="font-medium text-base">Model Description</label>
+          <textarea
+            name="description"
+            placeholder="Description"
+            value={formData.description}
+            onChange={handleChange}
+            className="w-full p-2 border border-gray-300 rounded flex-1"
+          />
+        </div>
+        <div className="w-full flex flex-col items-start gap-2 flex-1">
+          <label className="font-medium text-base">Model Use Cases</label>
+          <textarea
+            name="useCases"
+            placeholder="Use Cases"
+            value={formData.useCases}
+            onChange={handleChange}
+            className="w-full p-2 border border-gray-300 rounded flex-1"
+          />
+        </div>
+        <div className="w-full flex flex-col items-start gap-2">
+          <label className="font-medium text-base">Model Provider</label>
+          <input
+            type="text"
+            name="provider"
+            placeholder="Provider"
+            value={formData.provider}
+            onChange={handleChange}
+            className="w-full p-2 border border-gray-300 rounded"
+          />
+        </div>
+        <div className="w-full flex flex-col items-start gap-2">
+          <label className="font-medium text-base">GitHub Repo of Model (link)</label>
+          <input
+            type="url"
+            name="githublink"
+            placeholder="github link"
+            value={formData.githublink}
+            onChange={handleChange}
+            className="w-full p-2 border border-gray-300 rounded"
+          />
+        </div>
         <button
           type="submit"
           disabled={!isFormValid}
-          className="bg-black hover:bg-gray-900 text-white font-bold py-2 px-4 rounded"
+          className="bg-black hover:bg-gray-900 text-white font-bold py-2 px-4 rounded w-fit"
         >
           Deploy
         </button>

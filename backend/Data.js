@@ -240,7 +240,7 @@ const getData = () => {
       useCases: "Underpins models like GPT and BERT for various NLP tasks.",
       provider: "Google AI",
       usageCount: 5522,
-      subcategory: "Unknown",
+      subcategory: "Image-Text-to-Text",
     },
     {
       id: 23,
@@ -339,7 +339,7 @@ const getData = () => {
       useCases: "Text-to-speech, music generation.",
       provider: "DeepMind",
       usageCount: 2531,
-      subcategory: "Unknown",
+      subcategory: "Image-Text-to-Text",
     },
     {
       id: 32,
@@ -438,7 +438,7 @@ const getData = () => {
       useCases: "Transcribing audio and video files to text.",
       provider: "Mozilla",
       usageCount: 4040,
-      subcategory: "Unknown",
+      subcategory: "Image-Text-to-Text",
     },
     {
       id: 41,
@@ -537,7 +537,7 @@ const getData = () => {
       useCases: "Text generation, conversation, and more.",
       provider: "OpenAI",
       usageCount: 5049,
-      subcategory: "Unknown",
+      subcategory: "Image-Text-to-Text",
     },
     {
       id: 50,
@@ -636,7 +636,7 @@ const getData = () => {
       useCases: "Transcribing audio and video files to text.",
       provider: "Mozilla",
       usageCount: 4058,
-      subcategory: "Unknown",
+      subcategory: "Visual Question Answering",
     },
     {
       id: 59,
@@ -735,7 +735,7 @@ const getData = () => {
       useCases: "Text generation, conversation, and more.",
       provider: "OpenAI",
       usageCount: 5067,
-      subcategory: "Unknown",
+      subcategory: "Visual Question Answering",
     },
     {
       id: 68,
@@ -834,7 +834,7 @@ const getData = () => {
       useCases: "Text classification, sentiment analysis.",
       provider: "Google",
       usageCount: 6076,
-      subcategory: "Unknown",
+      subcategory: "Visual Question Answering",
     },
     {
       id: 77,
@@ -933,7 +933,7 @@ const getData = () => {
       useCases: "Translation, summarization, question answering, and more.",
       provider: "Google",
       usageCount: 4585,
-      subcategory: "Unknown",
+      subcategory: "Visual Question Answering",
     },
     {
       id: 86,
@@ -1032,7 +1032,7 @@ const getData = () => {
       useCases: "Surveillance, self-driving cars, and tracking.",
       provider: "Alexey Bochkovskiy",
       usageCount: 3594,
-      subcategory: "Unknown",
+      subcategory: "Document Question Answering",
     },
     {
       id: 95,
@@ -1131,7 +1131,7 @@ const getData = () => {
       useCases: "Image recognition, image classification.",
       provider: "Microsoft",
       usageCount: 3103,
-      subcategory: "Unknown",
+      subcategory: "Document Question Answering",
     },
     {
       id: 104,
@@ -1230,7 +1230,7 @@ const getData = () => {
       useCases: "Underpins models like GPT and BERT for various NLP tasks.",
       provider: "Google AI",
       usageCount: 5612,
-      subcategory: "Unknown",
+      subcategory: "Document Question Answering",
     },
     {
       id: 113,
@@ -1329,7 +1329,7 @@ const getData = () => {
       useCases: "Text-to-speech, music generation.",
       provider: "DeepMind",
       usageCount: 2621,
-      subcategory: "Unknown",
+      subcategory: "Document Question Answering",
     },
     {
       id: 122,
@@ -1428,7 +1428,7 @@ const getData = () => {
       useCases: "Transcribing audio and video files to text.",
       provider: "Mozilla",
       usageCount: 4130,
-      subcategory: "Unknown",
+      subcategory: "Document Question Answering",
     },
     {
       id: 131,

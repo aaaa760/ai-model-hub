@@ -3,12 +3,10 @@ import { Link } from "react-router-dom";
 import { DownloadIcon } from "@heroicons/react/outline";
 import { StarIcon as StarOutlineIcon } from "@heroicons/react/outline";
 import { StarIcon as StarSolidIcon } from "@heroicons/react/solid";
-
 const ModelCard = ({ model }) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
   useEffect(() => {
-   
     const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
     setIsFavorite(favorites.includes(model.id));
   }, [model.id]);
@@ -31,8 +29,7 @@ const ModelCard = ({ model }) => {
   };
 
   return (
-    <Link to={`/models/detail/${model.id}`} className="no-underline">
-    <div className="border border-gray-300 rounded-lg p-5 m-2 shadow-sm bg-white hover:shadow-lg transition-shadow duration-300 ease-in-out relative">
+    <div className="border border-gray-300 rounded-lg p-5 m-2 h-100 shadow-sm bg-white hover:shadow-lg transition-shadow duration-300 ease-in-out relative no-underline">
       <button
         onClick={toggleFavorite}
         className="absolute top-3 right-3"
@@ -44,23 +41,24 @@ const ModelCard = ({ model }) => {
           <StarOutlineIcon className="h-6 w-6 text-gray-400" />
         )}
       </button>
-      <div className="border-b border-gray-300 pb-2 mb-2">
-        <span className="font-bold text-lg block">{model.name}</span>
-        <span className="text-gray-600 text-sm">
-          {model.provider} · {model.name}
-        </span>
-      </div>
-      <div className="text-base text-gray-600 mb-2 flex-grow">
-        <span>{trimDescription(model.description)}</span>
-      </div>
-      <div className="border-t border-gray-300 pt-2 mt-2 flex items-center">
-        <DownloadIcon className="h-5 w-5 mr-2" />
-        <span className="font-bold text-sm">
-          {model.usageCount.toLocaleString()}
-        </span>
-      </div>
+      <Link to={`/models/detail/${model.id}`}>
+        <div className="border-b border-gray-300 pb-2 mb-2 ">
+          <span className="font-bold text-lg block">{model.name}</span>
+          <span className="text-gray-600 text-sm">
+            {model.provider} · {model.name}
+          </span>
+        </div>
+        <div className="text-base text-gray-600 mb-2 flex-grow">
+          <span>{trimDescription(model.description)}</span>
+        </div>
+        <div className="border-t border-gray-300 pt-2 mt-2 flex items-center">
+          <DownloadIcon className="h-5 w-5 mr-2" />
+          <span className="font-bold text-sm">
+            {model.usageCount.toLocaleString()}
+          </span>
+        </div>
+      </Link>
     </div>
-    </Link>
   );
 };
 
