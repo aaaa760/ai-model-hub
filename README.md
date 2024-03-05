@@ -50,7 +50,7 @@ Our application received a Google PageSpeed score of:
 - Effective use of React hooks and state management.
 
 ## Deployment
-- **Deployed at:** [vercel](https://ai-model-hub.vercel.app/)
+- **Deployed at:** [vercel](https://ai-model-hub-aaaa760.vercel.app/)
 - **Deployment Platform:** Vercel
 
 ## Repository
