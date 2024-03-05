@@ -19,7 +19,7 @@ const ModelDetail = () => {
       if (index < fullDescription.length) {
         setDisplayedDescription((prev) => prev + fullDescription.charAt(index));
         index++;
-        setTimeout(typeCharacter, 100); // Adjust the timeout to control speed
+        setTimeout(typeCharacter, 100);
       } else {
         setIsComputing(false);
       }
