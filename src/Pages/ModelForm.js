@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { CheckCircleIcon } from "@heroicons/react/outline";
-const ModelForm = () => {
+const ModelForm = ({ onModelSubmit }) => {
   const [formData, setFormData] = useState({
     name: "",
     category: "",
@@ -97,51 +97,20 @@ const ModelForm = () => {
     setIsFormValid(!isAnyFieldEmpty);
   }, [formData]);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    try {
-      const response = await fetch(
-        "https://ai-model-backend-laom3xzyu-aaaa760.vercel.app/",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-      if (response.ok) {
-        console.log("Model submitted successfully");
-        setFormData({
-          name: "",
-          category: "",
-          subcategory: "",
-          description: "",
-          useCases: "",
-          provider: "",
-          githublink: "",
-        });
-        setShowPopup(true);
-        setTimeout(() => setShowPopup(false), 3000);
-      } else {
-        console.error("Submission failed");
-        //since we are not using database the data is not appending to the json
-        //so for User Interface purpose we are showing that model deployed succesfully
-        setFormData({
-          name: "",
-          category: "",
-          subcategory: "",
-          description: "",
-          useCases: "",
-          provider: "",
-          githublink: "",
-        });
-        setShowPopup(true);
-        setTimeout(() => setShowPopup(false), 3000);
-      }
-    } catch (error) {
-      console.error("Error submitting form:", error);
-    }
+    onModelSubmit(formData);
+    setShowPopup(true);
+    setTimeout(() => setShowPopup(false), 3000);
+    setFormData({
+      name: "",
+      category: "",
+      subcategory: "",
+      description: "",
+      useCases: "",
+      provider: "",
+      githublink: "",
+    });
   };
 
   const filteredSubcategories = formData.category

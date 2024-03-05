@@ -52,6 +52,8 @@ const Model = () => {
     indexOfLastModel
   );
 
+  
+
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
