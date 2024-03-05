@@ -18,6 +18,7 @@ const HomePage = () => {
           </p>
           <button className="bg-black text-white text-lg rounded-full py-2 px-8 hover:bg-opacity-90 transition duration-300 ease-in-out">
             Explore Now
+            
           </button>
         </div>
         <div className="w-full md:w-auto md:flex-1 self-start">

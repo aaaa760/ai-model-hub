@@ -6,13 +6,15 @@ import Sidebar from '../Components/Sidebar';
 
 const CuratedModels = () => {
   const [curatedModels, setCuratedModels] = useState([]);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
 
   useEffect(() => {
     const favoriteIds = JSON.parse(localStorage.getItem('favorites')) || [];
 
     const fetchCuratedModels = async () => {
       try {
-        const response = await axios.get('https://ai-model-backend-aaaa760.vercel.app/api/models/');
+        const response = await axios.get('https://ai-model-backend-laom3xzyu-aaaa760.vercel.app/api/models/');
         const favoriteModels = response.data.filter(model => 
           favoriteIds.includes(model.id)
         );
@@ -28,7 +30,7 @@ const CuratedModels = () => {
   return (
 
 <div className='flex h-screen'>
-<Sidebar />
+<Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} onItemClick={toggleSidebar} />
 <div className="flex-1 p-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {curatedModels.length > 0 ? (
