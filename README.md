@@ -51,6 +51,7 @@ Our application received a Google PageSpeed score of:
 
 ## Deployment
 - **Deployed at:** [vercel](https://ai-model-hub-aaaa760.vercel.app/)
+- **Express Server for Mock Data:** [vercel](https://vercel.com/aaaa760/ai-model-backend/BfwSDmGkcjBEp2b4ZmDj82pqr4Mi)
 - **Deployment Platform:** Vercel
 
 ## Repository
